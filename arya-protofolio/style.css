@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #2a2a40;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #00bcd4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00bcd4;
+}
+
+/* Experience Section */
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    margin: 0;
+    color: #00bcd4;
+}
+
+.experience-item .date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Projects Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #2a2a40;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #2a2a40;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #00bcd4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a2a40;
+    margin-top: 40px;
+}
